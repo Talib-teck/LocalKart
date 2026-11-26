@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    color: darkgreen;
+    padding: 15px;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    background-color: #e2f3e5;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    color: rgb(187, 177, 120);
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(204, 218, 135);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(214, 220, 125);
+}
+
+.about {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.product {
+    background-color: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px lightgray;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.stock {
+    color: green;
+}
+body {
+    background-color: #f8f7ff;
+    color: #334155;
+}
+
+header {
+    color: #6366f1;
+}
+
+nav, footer {
+    background-color: #6366f1;
+}
+
+.hero {
+    background-color: #e9e5ff;
+}
+
+.hero h2 {
+    color: #4338ca;
+}
+
+.btn {
+    background-color: #6366f1;
+}
+
+.btn:hover {
+    background-color: #4338ca;
+}
+
+nav a:hover {
+    color: #e9e5ff;
+}
+
+.order-form {
+    background-color: white;
+    max-width: 380px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #ddd;
+    text-align: left;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 12px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.order-form button {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.success {
+    background-color: white;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #ddd;
+}
+
+.success h1 {
+    font-size: 60px;
+    color: #6366f1;
+}
+
+.success .btn {
+    margin: 8px;
+}
+
+.cart {
+    background-color: white;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #ddd;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart th {
+    background-color: #e9e5ff;
+    color: #4338ca;
+}
+
+.cart th, .cart td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart .btn {
+    margin: 8px;
+}
+.dashboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard-card {
+    background-color: #e9e5ff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.dashboard-card h1 {
+    color: #6366f1;
+}
+
+.offer {
+    background-color: #fff0e5;
+    padding: 35px 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.offer h2 {
+    color: #c26732;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.category {
+    background-color: white;
+    width: 180px;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #334155;
+    box-shadow: 0 3px 10px #ddd;
+    transition: 0.3s;
+}
+
+.category:hover {
+    background-color: #e9e5ff;
+    transform: translateY(-5px);
+}
+
+.category h1 {
+    font-size: 45px;
+}
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .product {
+        width: 85%;
+    }
+
+    .category {
+        width: 120px;
+    }
+
+    .order-form, .cart, .success {
+        margin: 20px 15px;
+        padding: 15px;
+    }
+
+    .cart {
+        overflow-x: auto;
+    }
+
+    .dashboard-card {
+        width: 80%;
+    }
+}
+
+footer {
+    margin-top: 30px;
+}
